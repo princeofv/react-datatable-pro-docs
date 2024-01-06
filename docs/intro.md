@@ -28,7 +28,7 @@ Import the DataTable component and use it in your React application. In this exa
 ```jsx
 Copy code
 import React from 'react';
-import DataTable from '@path/to/DataTable';
+import DataTable from 'react-datatable-pro';
 
 const MyDataTable = () => {
   const handleView = (row) => {
@@ -110,7 +110,7 @@ You can customize the styling of the table and its components using custom CSS o
 Copy code
 // Example: Custom styling using styled-components
 import styled from 'styled-components';
-import DataTable from '@path/to/DataTable';
+import DataTable from 'react-datatable-pro';
 
 const StyledDataTable = styled(DataTable)`
   // Add your custom styles here
@@ -127,7 +127,7 @@ jsx
 Copy code
 // Example: Integration with Redux
 import { connect } from 'react-redux';
-import DataTable from '@path/to/DataTable';
+import DataTable from 'react-datatable-pro';
 
 const MyReduxComponent = ({ dispatch, data }) => {
   // Your component logic here
